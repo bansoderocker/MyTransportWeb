@@ -23,13 +23,13 @@ namespace MyTransport
 
 
         }
-
+        
         private void getBillDetails()
         {
 
             BillDetailsModel billDetails = new BillDetailsModel();
             billDetails.Id = 1;
-            billDetails.Id = 1;#if
+         //   billDetails.Id = 1;//#if
             billDetails.Name = "Pankati";
             BillDetailsList.Add(billDetails);
 
